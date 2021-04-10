@@ -1,0 +1,23 @@
+*{ margin: 0;padding: 0;box-sizing: border-box; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.container {  
+    width:100%;
+    margin: 100px auto 0;
+   
+}
+.clearfix:after{content: "";clear: both; display:block;}
+.header {
+  width:70%;height:100%;margin: 0 auto;background-color: black;
+  border: 2px solid black;border-radius: 20px;
+  
+}
+h1 {color:#fff; font-weight: bold;
+  width:96%; height:40px;
+  background-color:green;text-align: center; margin:5px;border-radius:5px;
+}
+#form {
+  color :#fff; width:260px;margin:0 auto;
+}
+#billamt ,#shareNo ,#select{ border-width:2px 1px 0px 1px;border: solid burlywood; height: 30px;margin: 10px;padding: 3px;} 
+button { border:1px solid gray;border-radius:5px; width:80px;
+margin:0 0 0 40%;background-color:gray;}
+h5 { color:#fff;width: 100px; margin:5px auto;font-size:18px;}
